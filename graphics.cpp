@@ -50,7 +50,7 @@ int main(int argc, char const *argv[]) {
     states.texture = &texture;
     states.transform = transform;
 
-    triangle[0].position = sf::Vector2f(550, 80);
+    triangle[0].position = sf::Vector2f(550, 100);
     triangle[1].position = sf::Vector2f(650, 80);
     triangle[2].position = sf::Vector2f(650, 180);
 
@@ -59,7 +59,7 @@ int main(int argc, char const *argv[]) {
     triangle[2].color = sf::Color::Blue;
 
     triangle[0].texCoords = sf::Vector2f(0, 0);
-    triangle[1].texCoords = sf::Vector2f(640, 0);
+    triangle[1].texCoords = sf::Vector2f(0, 640);
     triangle[2].texCoords = sf::Vector2f(640, 640);
 
     int angle = 0;
